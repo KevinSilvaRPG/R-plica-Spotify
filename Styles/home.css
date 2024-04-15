@@ -1,0 +1,124 @@
+/* Estilo da Home Page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    background-color: #0A210F;
+    color: #E1E289;
+}
+
+/* NAVEGAÇÃO DA PAGINA */
+.navegacao {
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 1261px 0 360px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.navegacao-home{
+    text-decoration: none;
+    color: #99AA38;
+}
+.navegacao-sobre{
+    text-decoration: none;
+    color: #99AA38;
+    margin-left: 80px;
+    white-space: nowrap;
+}
+
+/* APRESENTAÇÃO */
+.apresentacao{
+    width: 100%;
+    padding: 235px 0 0 355px;
+}
+.apresentacao-conteudo{
+    display: flex;
+    align-self: flex-start;
+}
+.apresentacao-conteudo__textos{
+    display: flex;
+    flex-direction: column;
+    width: 593px;
+}
+.titulo{
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-family: 'Krona One',sans-serif;
+}
+.destaque{
+    color: #14591D;
+}
+.paragrafo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #99AA38;
+    margin-bottom: 40px;
+}
+
+/* IMAGEM PRINCIPAL */
+.imagem-kevin {
+    display: flex;
+    flex-direction: row;
+    height: 532px;
+    max-width: 100%;
+    margin-left: 84px;
+    border-radius: 16px;
+    outline: 3px solid #E1E289;
+    outline-offset: 10px;
+}
+
+/* REDES */
+.apresentacao-redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.apresentacao-redes__text {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 50;
+    margin-bottom: 32px;
+}
+.apresentacao-redes__links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    list-style-type: none;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-decoration: none;
+    align-items: center;
+    width: 378px;
+    text-align: center;
+    color: #99AA38;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border: 2px solid #E1E289;
+    padding: 21.5px 0px;
+    border-radius: 8px;
+}
+.links:hover{
+    background-color: #14591D;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    background-color: #99AA38;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 104px;
+}
+/* FIM DA HOME PAGE */
